@@ -40,7 +40,7 @@ h1{
     
     
 
-  }
+    }
 .naon{
     font-family: 'Merriweather', serif;
 }
@@ -68,6 +68,7 @@ nav{
     padding: 5px;
     border: solid 5px white;
     margin-bottom: 20px;
+    z-index: 1;
     
 }
 
@@ -83,10 +84,11 @@ nav{
     padding: 15px 20px;
     color: rgb(115, 56, 171);
     text-decoration: none;
+    
 }
 .menu > li:hover{
     background-color: rgb(115, 56, 171);
-   
+
 }
 .menu-vertical{
     position: absolute;
@@ -94,6 +96,7 @@ nav{
     list-style: none;
     width: 200px;
     background-color: rgb(115, 56, 171);
+    z-index: 1;
 }
 .menu li:hover .menu-vertical{
     display: block;
@@ -144,7 +147,7 @@ footer{
     
     
 }
-   
+
     h2{
         color: black;
         font-family: 'Merriweather', serif;
@@ -376,22 +379,22 @@ input{
     h1{
         font-size: 40px;
         
-   }
-   .naon{
+    }
+    .naon{
     font-size: 20px;
-   }
-   .logo{
+    }
+    .logo{
     height: 150px;
     margin-top: -160px;
     margin-bottom: 900px;
     margin-left: 0px;
     position: absolute; 
-   }
-   p{
+    }
+    p{
     margin-top: -5px;
     
-   }
-   video{
+    }
+    video{
     
     width: 250px;
     height: 250px;
@@ -402,31 +405,30 @@ input{
     display: flex;
     align-items: center;
     margin: auto;
-   }
-   .cooking{
+    }
+    .cooking{
     width: 300px;
     position: relative;
     margin: auto;
     display: flex; 
-   }
-   .redes{
+    }
+    .redes{
     color: black;
     font-size: 40px;
     letter-spacing: 5px;
     text-align: center;
     margin-top: -40px;
     margin-bottom: 10px;
-   }
-   .maps{
+    }
+    .maps{
     display: inline-block;
     
-   }
-   nav{
+    }
+    nav{
     height: 30px;
     font-size: 10px;
     margin-top: -1px;
-   }
-   
+    }
 }
 
 @media only screen and (min-width:480px) {
@@ -436,18 +438,18 @@ input{
     .naon{
         font-size: 20px;
     }
-   }
-   .logo{
+    }
+    .logo{
     height: 170px;
     margin-top: -170px;
     margin-bottom: 900px;
     margin-left: 0px;
     position: absolute;
-   }
-   p{
+    }
+    p{
     margin-top: -30px;
-   }
-   video{
+    }
+    video{
     
     width: 350px;
     height: 350px;
@@ -458,29 +460,29 @@ input{
     margin: auto;
     display: flex;
     align-items: center;
-   }
-   .cooking{
+    }
+    .cooking{
     width: 450px;
     position: relative;
     margin: auto;
     display: flex; 
-   }
-   .redes{
+    }
+    .redes{
     color: black;
     font-size: 80px;
     letter-spacing: 10px;
     text-align: center;
     margin-top: -20px;
     margin-bottom: 2px;
-   }
-   .maps{
+    }
+    .maps{
     display: inline-block;
-   }
-   nav{
+    }
+    nav{
     margin-top: -1px;
     height: 40px;
     font-size: 20px;
-   }
+    }
 
 }
 
@@ -497,17 +499,17 @@ input{
         height: 600px;
     }
 
-   .logo{
+    .logo{
     height: 250px;
     margin-top: -200px;
     margin-bottom: 1000px;
     margin-left: 0;
     position: relative;
-   }
-   p{
+    }
+    p{
     margin-top: -900px;
-   }
-   video{
+    }
+    video{
     
     width: 450px;
     height: 450px;
@@ -518,20 +520,20 @@ input{
     margin: auto;
     display: flex;
     align-items: center;
-   }
-   nav{
+    }
+    nav{
     margin-top: -950px;
     height: 50px;
     font-size: 25px;
-   }
+    }
 
-   .cooking{
-   width: 600px;
-   position: relative;
-   margin: auto;
-   display: flex; 
-   }
-   .redes{
+    .cooking{
+    width: 600px;
+    position: relative;
+    margin: auto;
+    display: flex; 
+    }
+    .redes{
     color: black;
     font-size: 80px;
     letter-spacing: 10px;
@@ -548,24 +550,24 @@ input{
     h1{
         font-size: 300px;
     
-   }
-   .naon{
+    }
+    .naon{
     font-size: 30px;
     
 }
 
-   .logo{
+    .logo{
     height: 300px;
     margin-top: -220px;
     margin-bottom: 100px;
     margin-left: 100px;
     position: relative;
 }
-   p{
+    p{
     margin-top: -50px;
     /*font-size: 50px;*/
-   }
-   video{
+    }
+    video{
     
     width: 500px;
     height: 500px;
@@ -576,28 +578,28 @@ input{
     margin: auto;
     display: flex;
     align-items: center;
-   }
-   .cooking{
+    }
+    .cooking{
     width: 1000px;
     position: relative;
     margin: auto;
     display: flex; 
-   }
-   .redes{
+    }
+    .redes{
     color: black;
     font-size: 80px;
     letter-spacing: 10px;
     text-align: center;
     margin-top: -20px;
     
-   }
-   .maps{
+    }
+    .maps{
     display: flex;
     background-size: auto;
-   }
-   nav{
+    }
+    nav{
     margin-top: -100px;
     height: 55px;
     font-size: 30px;
-   }
+    }
 }
